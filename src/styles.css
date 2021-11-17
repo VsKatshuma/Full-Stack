@@ -1,0 +1,59 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+.background {
+    background: linear-gradient(rgb(65,225,55) 0%, rgb(255,255,255) 60%);
+}
+
+header {
+    font-size: 40px;
+    padding: 34px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left {
+    margin-right: 40px;
+}
+
+button {
+    margin: 1px;
+}
+
+.right {
+    width: 400px;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.item {
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    padding: 5px 10px;
+}
+
+.active {
+    background-color: rgba(80, 255, 80, 0.5);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.author {
+    font-size: 14px;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "full-stack-frontend",
+  "version": "1.0.0",
+  "description": "Full Stack exercise using React and Node.js.",
+  "scripts": {
+    "start-client": "react-scripts start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start": "npm run build && (cd server && npm start)"
+  },
+  "author": "VsKatshuma",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  }
+}
