@@ -1,6 +1,6 @@
 Full Stack exercise using **React** and **Node.js**.
 
-Requires MongoDB and Node.js to be installed. (Uses Node 17.0)
+Requires MongoDB and Node.js to be installed. (Developed using Node 17.0.)
 
 A MongoDB Database Server has to be running locally, listening for connections in the default address 127.0.0.1:27017 for the application to function.
 
